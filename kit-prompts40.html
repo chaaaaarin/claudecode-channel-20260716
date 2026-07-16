@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🎁 Fable 5 トークン節約プロンプト40選</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --brand:#D9774F; --brand-deep:#C15640; --brand-soft:rgba(217,119,79,.12); --brand-line:rgba(217,119,79,.30);
+    --accent:#D9774F; --accent-deep:#B24E33; --accent-soft:rgba(217,119,79,.16);
+    --bg:#F1ECE3; --paper:#FBF8F2; --ink:#2A2620; --ink-mid:#6E6557; --ink-sub:#A39A8B; --line:#E4D9C7;
+    --head:'M PLUS Rounded 1c';
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--bg);color:var(--ink);font-family:'Noto Sans JP',-apple-system,'Hiragino Sans','Yu Gothic',sans-serif;line-height:1.7;}
+  header{position:relative;background:linear-gradient(160deg,var(--brand-soft) 0%,var(--bg) 70%);padding:40px 32px 28px;border-bottom:3px solid var(--brand-line);text-align:center;}
+  header h1{font-family:var(--head);font-weight:900;font-size:28px;color:var(--ink);}
+  header p{font-size:14.5px;color:var(--ink-mid);margin-top:10px;max-width:640px;margin-left:auto;margin-right:auto;}
+  .backlink{display:inline-block;margin-top:14px;font-size:13px;color:var(--brand-deep);text-decoration:none;font-weight:700;}
+  header .badge{display:inline-block;background:var(--accent);color:var(--ink);font-family:var(--head);font-weight:900;font-size:13px;border-radius:999px;padding:5px 16px;margin-top:12px;}
+  nav.catnav{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1.5px solid var(--line);padding:12px 20px;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.05);}
+  nav.catnav a{font-size:12.5px;font-weight:700;color:var(--brand-deep);text-decoration:none;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:6px 14px;white-space:nowrap;}
+  nav.catnav a:hover{border-color:var(--brand);}
+  main{max-width:1100px;margin:0 auto;padding:8px 24px 60px;}
+  section{padding:28px 0;border-bottom:1px solid var(--line);}
+  section h2{font-family:var(--head);font-weight:900;font-size:20px;color:var(--ink);margin-bottom:16px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;}
+  .card{background:var(--paper);border:1.5px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;}
+  .card h4{font-family:var(--head);font-size:14px;color:var(--brand-deep);margin-bottom:8px;}
+  .card pre{flex:1;background:var(--ink);color:#ECECEA;border-radius:9px;padding:11px 13px;font-size:12px;line-height:1.55;white-space:pre-wrap;word-break:break-word;font-family:ui-monospace,Menlo,monospace;margin-bottom:10px;}
+  .cbtn{align-self:flex-start;background:var(--accent);border:1.5px solid var(--accent-deep);color:var(--ink);border-radius:999px;padding:6px 16px;font-family:var(--head);font-weight:900;font-size:12px;cursor:pointer;}
+  .bulk{text-align:center;padding:36px 24px;}
+  .btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);border:2px solid var(--accent-deep);color:var(--ink);border-radius:999px;padding:11px 26px;font-family:var(--head);font-weight:900;font-size:14px;cursor:pointer;text-decoration:none;}
+  .btn.ghost{background:var(--paper);border:1.5px solid var(--line);color:var(--brand-deep);}
+  footer{background:var(--ink);color:#EBEBE7;padding:26px 24px;text-align:center;font-size:12px;}
+  footer a{color:var(--accent);text-decoration:none;}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎁 Fable 5 トークン節約プロンプト40選</h1>
+  <span class="badge">40本</span>
+  <p>Effort設定からバーベル戦略、セッション管理、MCP整理、圧縮ツール、引き継ぎ書、日常のトークン大掃除、画像レンダリングの裏技まで。カード単位でコピー、まとめてダウンロードもできます。</p>
+  <a class="backlink" href="./present.html">← 一覧へ</a>
+</header>
+<nav class="catnav">
+<a href="#cat-effort">Effort設定</a>
+<a href="#cat-barbell">バーベル戦略・役割分担</a>
+<a href="#cat-session">セッション・コンテキスト管理</a>
+<a href="#cat-mcp">MCP・コネクタ整理</a>
+<a href="#cat-compress">トークン圧縮ツール導入</a>
+<a href="#cat-handover">引き継ぎ書・継続性</a>
+<a href="#cat-cleanup">日常のトークン大掃除</a>
+<a href="#cat-image">画像レンダリングの裏技</a>
+</nav>
+<main>
+<section id="cat-effort">
+  <h2>Effort設定</h2>
+  <div class="grid">
+    <div class="card">
+  <h4>Effortを既定に戻す確認</h4>
+  <pre id="pr1">現在のeffort設定を教えて。high以外になっていたら、理由も一緒に教えて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr1', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>ルーティン作業をmediumに下げる</h4>
+  <pre id="pr2">この作業はルーティンなので、effortをmediumに下げて進めて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr2', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>サブエージェントをlowで動かす</h4>
+  <pre id="pr3">サブエージェントは全部effort=lowで実行して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr3', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>長時間タスクだけxhighに上げる</h4>
+  <pre id="pr4">このタスクは30分を超える見込みなので、effortをxhighに上げてから始めて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr4', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>Effort段階のコストを試算してから決める</h4>
+  <pre id="pr5">このタスクについて、medium/high/xhighそれぞれのコスト目安を先に見積もってから、どれを使うか提案して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr5', this)">📋 コピー</button>
+</div>
+  </div>
+</section>
+<section id="cat-barbell">
+  <h2>バーベル戦略・役割分担</h2>
+  <div class="grid">
+    <div class="card">
+  <h4>計画だけFable 5に任せる</h4>
+  <pre id="pr6">実装計画を、Fable 5の計画エージェントを使って立ててください</pre>
+  <button class="cbtn" onclick="copyPrompt('pr6', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>実装は安いモデルに委譲する</h4>
+  <pre id="pr7">この計画どおりに、実装はSonnetで進めてください</pre>
+  <button class="cbtn" onclick="copyPrompt('pr7', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>レビューだけFable 5に戻す</h4>
+  <pre id="pr8">実装が終わったら、最後にFable 5でレビューして、設計との食い違いがないか確認して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr8', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>サブエージェントごとに担当モデルを指定する</h4>
+  <pre id="pr9">計画エージェントはFable 5、実装エージェントはHaikuにして</pre>
+  <button class="cbtn" onclick="copyPrompt('pr9', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>役割分担を1文で指示する</h4>
+  <pre id="pr10">設計・計画のサブエージェントはFable 5、実装は別モデルにしてください</pre>
+  <button class="cbtn" onclick="copyPrompt('pr10', this)">📋 コピー</button>
+</div>
+  </div>
+</section>
+<section id="cat-session">
+  <h2>セッション・コンテキスト管理</h2>
+  <div class="grid">
+    <div class="card">
+  <h4>会話が長くなったらまとめてクリア</h4>
+  <pre id="pr11">ここまでの内容をコンパクトにまとめてから、新しいセッションで続けて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr11', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>オートコンパクトの閾値を下げる</h4>
+  <pre id="pr12">オートコンパクトが発動する閾値を15万トークンに下げて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr12', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>/btwで本題を止めずに確認する</h4>
+  <pre id="pr13">/btw さっき変更したファイル名は何だっけ？</pre>
+  <button class="cbtn" onclick="copyPrompt('pr13', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>複数の質問をまとめて送る</h4>
+  <pre id="pr14">次の3つをまとめて聞きます：①〇〇について ②△△について ③××について</pre>
+  <button class="cbtn" onclick="copyPrompt('pr14', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>質問リスト化してターン数を削る</h4>
+  <pre id="pr15">これから複数の確認事項があるので、都度聞かずに全部まとめて質問リストにしてから送って</pre>
+  <button class="cbtn" onclick="copyPrompt('pr15', this)">📋 コピー</button>
+</div>
+  </div>
+</section>
+<section id="cat-mcp">
+  <h2>MCP・コネクタ整理</h2>
+  <div class="grid">
+    <div class="card">
+  <h4>使用中のコネクタを棚卸しする</h4>
+  <pre id="pr16">今接続されているMCPコネクタと、それぞれのツール数を全部教えて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr16', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>不要なコネクタを無効化する</h4>
+  <pre id="pr17">今のタスクに使わないコネクタは全部無効化して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr17', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>コネクタのトークン消費を確認する</h4>
+  <pre id="pr18">各コネクタがどれくらいのトークンを消費しているか教えて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr18', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>タスク開始前にコネクタを絞る</h4>
+  <pre id="pr19">このタスクに必要なコネクタだけ有効にして、他は切って</pre>
+  <button class="cbtn" onclick="copyPrompt('pr19', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>コネクタ見直しを習慣化する</h4>
+  <pre id="pr20">月に1回、使っていないコネクタが無いか確認するリマインドをCLAUDE.mdに追記して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr20', this)">📋 コピー</button>
+</div>
+  </div>
+</section>
+<section id="cat-compress">
+  <h2>トークン圧縮ツール導入</h2>
+  <div class="grid">
+    <div class="card">
+  <h4>rtkの導入効果を試算する</h4>
+  <pre id="pr21">rtkを導入して、シェル出力の圧縮率を試算して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr21', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>headroomの導入を検討する</h4>
+  <pre id="pr22">会話コンテキストが大きくなってきたら、headroomの導入を提案して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr22', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>lean-ctxでファイル読込を圧縮する</h4>
+  <pre id="pr23">大きいファイルを読むときは、lean-ctxで見出し抽出してから中身を判断して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr23', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>h5iでコマンド出力を圧縮する</h4>
+  <pre id="pr24">コマンド出力をh5iで圧縮して、元データはgitに保管して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr24', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>圧縮ツールの効果を測定する</h4>
+  <pre id="pr25">圧縮ツール導入前後のトークン消費を比較して報告して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr25', this)">📋 コピー</button>
+</div>
+  </div>
+</section>
+<section id="cat-handover">
+  <h2>引き継ぎ書・継続性</h2>
+  <div class="grid">
+    <div class="card">
+  <h4>引き継ぎ書を作る</h4>
+  <pre id="pr26">ここまでの作業を、別のツールに引き継げる形で1つのドキュメントにまとめて。含める内容：現在の状態／決定事項とその理由／変更したファイル一覧／残タスク／注意点</pre>
+  <button class="cbtn" onclick="copyPrompt('pr26', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>Codex向けに引き継ぎ書を整形する</h4>
+  <pre id="pr27">この引き継ぎ書を、Codexにそのまま貼って続きから始められる形式に整えて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr27', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>節目ごとに途中経過を残す</h4>
+  <pre id="pr28">作業の節目ごとに、現在の状態を1段落でメモに残して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr28', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>決定事項ログを残す</h4>
+  <pre id="pr29">今回の実装で決めたことと、その理由を一覧にして残しておいて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr29', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>枠が尽きる前にアラートする</h4>
+  <pre id="pr30">利用上限が近づいたら教えて。近づいたら引き継ぎ書の作成を提案して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr30', this)">📋 コピー</button>
+</div>
+  </div>
+</section>
+<section id="cat-cleanup">
+  <h2>日常のトークン大掃除</h2>
+  <div class="grid">
+    <div class="card">
+  <h4>メモリファイルを圧縮する</h4>
+  <pre id="pr31">メモリの目次ファイルを見直して、冗長な記述を削って圧縮して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr31', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>完了済み情報をアーカイブする</h4>
+  <pre id="pr32">完了済みのタスク・ツール情報をアーカイブフォルダに移動して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr32', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>スキル説明文をダイエットする</h4>
+  <pre id="pr33">自作スキルの説明文を、要点だけ残して半分程度に削って</pre>
+  <button class="cbtn" onclick="copyPrompt('pr33', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>キャッシュヒット率を確認する</h4>
+  <pre id="pr34">プロンプトキャッシュのヒット率を確認して、下がっていたら原因を教えて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr34', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>無駄なコマンドを可視化する</h4>
+  <pre id="pr35">セッションログを見て、無駄なBashコマンドが無かったか教えて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr35', this)">📋 コピー</button>
+</div>
+  </div>
+</section>
+<section id="cat-image">
+  <h2>画像レンダリングの裏技</h2>
+  <div class="grid">
+    <div class="card">
+  <h4>画像化してOCRさせる</h4>
+  <pre id="pr36">このJSON・ログを、画像としてレンダリングしてから読み込んで内容を教えて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr36', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>大量コンテキストの画像化を試す</h4>
+  <pre id="pr37">このシステムプロンプト相当の情報を、画像化してトークンを節約する方法を試して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr37', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>画像化の効果を試算する</h4>
+  <pre id="pr38">このテキストを画像化した場合と、そのまま渡した場合のトークン消費を比較して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr38', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>ベンチマーク比較を確認する</h4>
+  <pre id="pr39">Fable 5とOpus 4.8、GPT 5.5のベンチマーク比較表を教えて</pre>
+  <button class="cbtn" onclick="copyPrompt('pr39', this)">📋 コピー</button>
+</div><div class="card">
+  <h4>無償期間・リセット状況を確認する</h4>
+  <pre id="pr40">現在Fable 5の無償期間や利用上限リセットの状況はどうなっているか、公式アナウンスを確認して</pre>
+  <button class="cbtn" onclick="copyPrompt('pr40', this)">📋 コピー</button>
+</div>
+  </div>
+</section>
+</main>
+<div class="bulk">
+  <a class="btn" href="kit/prompts40.md" download>⬇ 40本まとめてダウンロード（.md）</a>
+  <a class="btn ghost" href="./present.html">← プレゼントキットに戻る</a>
+</div>
+<footer>ClaudeCodeチャンネル — Fable 5節約術 ／ 出力内容は使う前に一度レビューしてください</footer>
+<script>
+function copyTextWithFallback(text){
+  return navigator.clipboard.writeText(text).then(() => true).catch(() => {
+    const ta = document.createElement('textarea');
+    ta.value = text; document.body.appendChild(ta); ta.select();
+    const ok = document.execCommand('copy');
+    ta.remove();
+    return ok;
+  });
+}
+async function copyPrompt(id, btn){
+  const ok = await copyTextWithFallback(document.getElementById(id).textContent);
+  const orig = btn.textContent;
+  btn.textContent = ok ? '✔ コピー済み' : '✖ 失敗';
+  setTimeout(() => { btn.textContent = orig; }, ok ? 1500 : 2500);
+}
+</script>
+</body>
+</html>
